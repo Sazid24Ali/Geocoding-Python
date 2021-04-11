@@ -1,0 +1,14 @@
+ 
+    Python Modules 
+
+-PyQt5==5.15.1
+-requests==2.24.0
+-json -- Inbuilt Basically 
+
+	Google's Geocoding API
+
+- API Key : To Generate You'r Key Visit https://console.cloud.google.com/apis/credentials
+			
+			On Visiting The Site Create/Select A Project ( As Promted )
+			Click on " Create Credentials" > Select "API KEY" 
+			API KEY Will be Generated > Copy The Key [ Go To readme.txt file inorder to known How to use it] .
