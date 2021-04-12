@@ -43,7 +43,7 @@ GEOCODING
   -- The 'request' library gets the data from the API.
   -- These Data is then serialized Using 'json' library.
   -- From the json data the Latitude and the Longitude are extracted. 
-  -- These extracted Coordinates Are then Converted from Decimal To DMS(Decimal,Minutes,Seconds) Format Using 'Convert' Function .
+  -- These extracted Coordinates Are then Converted from Decimal To DMS(Degrees,Minutes,Seconds) Format Using 'Convert' Function .
   -- These Converted data is then Populated at the Frespaces Beside The Latitude and Longitude in the Window.
 
 - When The Adress is NOT GIVEN and The 'Submit' Button is Clicked
@@ -53,4 +53,4 @@ GEOCODING
   -- An Error is raised and The 'Error_Box.py' is Invoked and The Error msg is displayed.
 
   NOTE : 1) IF THE API KEY IS NOT PRESENT PROGRAM WILL NOT RUN ( SHOWS THE ADDRESS NOT FOUND ERROR WINDOW. ). 
-  		 2) THE GOOGLE TRIES TO RESOLVE THE ADDRESS MAXIMUM TIMES , AT TIMES SHOWS AN ERROR.
+  	 2) THE GOOGLE TRIES TO RESOLVE THE ADDRESS MAXIMUM TIMES , AT TIMES SHOWS AN ERROR.
